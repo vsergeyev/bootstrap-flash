@@ -1,13 +1,16 @@
 bootstrap-flash
 ===============
 
-Flash notification messages extension of Twitter Bootstrap.
+20 lines-of-code flash notification messages extension for Twitter Bootstrap.
 
-It's adds to `window` a function `flash(msg, is_error)` to display twitter bootstrap
-`alert` box. After 10 seconds it's fadeout.
 
 Usage
 =====
+    
+    <script src="bootstrap-flash.js"></script>
+
+Appends `window` object with function `flash(msg, is_error)`.
+
 
 Green notification:
 
@@ -17,3 +20,4 @@ Green notification:
 Red notification:
 
     flash("Error message!", true)
+
