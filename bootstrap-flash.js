@@ -19,7 +19,6 @@
 
     this.flash = function(msg, err) {
         var box = $(".bootstrap-flash");
-        console.log(box);
         if (err)
             box.addClass("alert-error")
         else
